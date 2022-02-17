@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Playfair+Display:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #c5c5c5;
+    /* background: linear-gradient(180deg, rgba(132,141,152,1) 0%, rgba(148,155,162,1) 50%, rgba(211,210,201,1) 93%); */
+    font-family: 'Segoe UI', sans-serif;
+}
+.heading{
+    height: 130px;
+    font-size: 64px;
+    font-family: 'Bangers', cursive;;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 32px;
+    background-color: #403D39;
+    color: #ffffff;
+}
+.subhead{
+    font-size: 20px;
+    font-family:'Segoe UI', sans-serif;
+    font-style: italic;
+}
+.navbar{
+    height: auto;
+    width: auto;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 16px;
+    border-radius: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.container{
+    height: auto;
+    width: 75%;
+    margin: auto;
+    background-color: #FFFFFF;
+    background-position: center;
+    padding: 20px;
+}
+.text{
+    background-color: rgba(256, 256, 256, 0.85);
+    width: 50%;
+    margin-top: 20px;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: start;
+}
+.title{
+    margin-bottom: 16px;
+}
+.para1{
+    margin-bottom: 16px;
+}
+footer{
+    background-color: #404040;
+    color: #FFFFFF;
+    display: flex;
+    padding: 32px 0;
+}
+.quote{
+    display: flex;
+    text-align: end;
+    font-size: 24px;
+    width: 50%;
+    font-family: 'Playfair Display', serif;
+}
+.vl{
+    height: 100px;
+    width: 1px;
+    background-color: #FFFFFF;
+    display: flex;
+    border: #FFFFFF 1px solid;
+    margin: 0 16px;
+}
+.ft{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding-top: 16px;
+}
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
